@@ -179,3 +179,10 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Project data files
+data/raw/*
+data/processed/*
+
+# Keep the empty data directories in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
