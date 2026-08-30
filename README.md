@@ -119,17 +119,7 @@ Buildings at lower relative elevations receive higher component scores.
 
 Slope was calculated using a Horn 3 × 3 neighborhood:
 
-$$
-\text{slope}
-=
-\arctan
-\left(
-\sqrt{
-\left(\frac{\partial z}{\partial x}\right)^2+
-\left(\frac{\partial z}{\partial y}\right)^2
-}
-\right)
-$$
+$$\mathrm{slope}=\arctan\left(\sqrt{\left(\frac{\partial z}{\partial x}\right)^2+\left(\frac{\partial z}{\partial y}\right)^2}\right)$$
 
 Flatter terrain receives a higher susceptibility component because surface water generally drains more slowly where the local gradient is small.
 
